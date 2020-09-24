@@ -1,0 +1,168 @@
+/************************** Tag selectors *****************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: #3e4149;
+}
+h1 {
+  font-size: 5.625rem;
+  margin: 0 auto 0 auto;
+  font-family: 'Parisienne', cursive;
+  color: #fe7b66;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+  color: #fe7b66;
+  }
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  color: #ff9999;
+}
+
+a {
+  color: #fe7b66;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+}
+
+a:hover {
+  color: #3e4149;
+}
+
+hr {
+ border-style: dotted;
+ border-width: 10px 0 0 0;
+ width: 50px;
+ color: #444f5a;
+ margin: 100px auto 100px auto;
+}
+
+/************************** Class selectors **************************/
+.border-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+.border-right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.top-container {
+  background-color: #ffc8c8;
+  position: relative;
+  padding-top: 50px;
+  width: auto;
+
+}
+
+.middle-container{
+  margin-top: 50px;
+}
+
+.bottom-container {
+  background-color: #ffc8c8;
+  margin-bottom: 0;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.bottom-flower{
+  position:absolute;
+  top: 0;
+  left: 15%;
+}
+
+.top-flower {
+  position:absolute;
+  top: 0;
+  right: 15%;
+
+}
+
+.girl {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+
+.sub-heading {
+  font-weight: normal;
+}
+
+.skill-row {
+  display: inline-block;
+  position: relative;
+  width: 49%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+.broken-shield{
+  width: 25%;
+
+}
+
+.programming {
+  width: 25%;
+}
+
+.footer-link {
+  padding: 20px;
+}
+
+.reference {
+  color: #3e4149;
+}
+
+.contact-me {
+  line-height: 2;
+}
+
+.btn {
+  background: #FF9999;
+  background-image: -webkit-linear-gradient(top, #FF9999, #FE7B66);
+  background-image: -moz-linear-gradient(top, #FF9999, #FE7B66);
+  background-image: -ms-linear-gradient(top, #FF9999, #FE7B66);
+  background-image: -o-linear-gradient(top, #FF9999, #FE7B66);
+  background-image: linear-gradient(to bottom, #FF9999, #FE7B66);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Playfair Display', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ffc8c8;
+  background-image: -webkit-linear-gradient(top, #ffc8c8, #fea094);
+  background-image: -moz-linear-gradient(top, #ffc8c8, #fea094);
+  background-image: -ms-linear-gradient(top, #ffc8c8, #fea094);
+  background-image: -o-linear-gradient(top, #ffc8c8, #fea094);
+  background-image: linear-gradient(to bottom, #ffc8c8, #fea094);
+  text-decoration: none;
+}
+
+/************************* ID Selectors ***************************/
+
+#Me {
+  height: 200px;
+}
+
+/*********** Color palet : #ffc8c8 #ff9999 #fea094 #fe7b66 #444f5a #3e4149 ********/
+
+/********* My fonts
+font-family: 'Oswald', sans-serif;
+font-family: 'Parisienne', cursive;
+font-family: 'Playfair Display', serif;
+******* /
